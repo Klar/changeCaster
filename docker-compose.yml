@@ -1,0 +1,7 @@
+version: '3'
+services:
+  broadcaster:
+    build: .
+    volumes:
+      - ./broadcast.txt:/usr/src/app/broadcast.txt
+    network_mode: host

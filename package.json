@@ -1,0 +1,19 @@
+{
+  "name": "changecaster",
+  "version": "1.0.0",
+  "description": "Broadcast Bitcoin (signed) transaction to different APIs in a random fashion",
+  "main": "blockBroadcaster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.pxd.ch/afu/changeCaster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bsv": "^1.5.0",
+    "node-fetch": "^2.6.0"
+  }
+}
